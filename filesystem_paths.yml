@@ -1,0 +1,17 @@
+<% require 'tmpdir' %>
+# This allows us different filesystem paths for different platforms
+---
+? !ruby/regexp /.*/
+:
+  tmpdir: &tmpdir
+    root: <%= Dir.tmpdir %>
+    prms:
+      - r
+      - w
+  unzip_path:
+    <<: *tmpdir
+  resources:
+    root: <%= ::File.expand_path('resources', __dir__) %>
+    prms:
+      - r
+      - w

@@ -1,0 +1,34 @@
+---
+- !ruby/object:NdrImport::Table
+  canonical_name: dars_spec
+  filename_pattern: !ruby/regexp /.*/i
+  tablename_pattern: !ruby/regexp /\Adata items\z/i
+  header_lines: 2
+  footer_lines: 0
+  klass: Hash
+  columns:
+  - column: <html>display   <b>name</b></html>
+    mappings:
+    - field: display_name
+      # replace:
+      # - ? !ruby/regexp /_Collection-.*-20.*\.xlsm\z/
+      #   : ''
+  - column: Database Field Name
+    mappings:
+    - field: database_field_name
+  - column: Field Description
+  - column: Field Group
+    mappings:
+    - field: field_group
+  - column: Sensitive Field
+    mappings:
+    - field: sensitive_field
+  - column: Identifiable Field
+    mappings:
+    - field: identifiable_field
+  - column: Field Type
+    mappings:
+    - field: field_type
+  - column: Field Length
+    mappings:
+    - field: field_length
