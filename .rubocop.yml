@@ -1,13 +1,9 @@
-AllCops:
-  TargetRubyVersion: 2.4
+inherit_from: 'https://raw.githubusercontent.com/PublicHealthEngland/ndr_dev_support/master/.rubocop.yml'
 
-Style/StringLiterals:
-  Enabled: true
-  EnforcedStyle: double_quotes
+require: rubocop-minitest
 
-Style/StringLiteralsInInterpolation:
-  Enabled: true
-  EnforcedStyle: double_quotes
+Layout/IndentationConsistency:
+  EnforcedStyle: indented_internal_methods
 
-Layout/LineLength:
-  Max: 120
+Minitest/MultipleAssertions:
+  Max: 10
