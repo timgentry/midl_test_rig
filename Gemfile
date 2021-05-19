@@ -2,9 +2,9 @@
 
 source 'https://rubygems.org'
 
-gem 'midl', git: 'https://github.com/timgentry/midl.git', branch: 'main', ref: '8fac191'
+gem 'midl', git: 'https://github.com/timgentry/midl.git', branch: 'main', ref: '71d0562'
 gem 'midl-spark_sql', git: 'https://github.com/timgentry/midl-spark_sql.git', branch: 'main',
-                      ref: 'ca4b131'
+                      ref: '7e1459e'
 gem 'minitest', '~> 5.0'
 gem 'ndr_dev_support', '>= 3.1.3'
 gem 'ndr_import'

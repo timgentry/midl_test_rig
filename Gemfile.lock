@@ -1,7 +1,7 @@
 GIT
   remote: https://github.com/timgentry/midl-spark_sql.git
-  revision: ca4b131a4b19ad1fecd3e06c20a7ec410d07cc1e
-  ref: ca4b131
+  revision: 7e1459e3c8112a12a89821ac8e321eb01760926a
+  ref: 7e1459e
   branch: main
   specs:
     midl-spark_sql (0.1.0)
@@ -11,8 +11,8 @@ GIT
 
 GIT
   remote: https://github.com/timgentry/midl.git
-  revision: 8fac19174ac33add952d34bc97409f899deb49b2
-  ref: 8fac191
+  revision: 71d05621cdc45f134659b704facb48539c4044d6
+  ref: 71d0562
   branch: main
   specs:
     midl (0.1.0)
